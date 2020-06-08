@@ -1,0 +1,29 @@
+Create new project
+=======
+    1. Remove the helloworld components
+=======
+Configure routes
+=======
+    2. Configure the App.vue file
+    3. Add a routes.js file
+    4. Configure/Connect in main.js
+    5. Add new file routes and configure
+    6. Configure main.js with router
+    7. Add views folder and add Posts.vue
+    8. Import vue router npm install --save vue-router
+    9. Page should be working now
+    10. Add pagenotfound
+=====
+Build Navbar & Boostrap
+=====
+    11. Build Navbar file
+    12. Add Navbar to Posts.vue
+    13. Install Boostrap npm install bootstrap
+    14. Add Boostrap to main.js
+======
+AxiosAPI
+======
+    15. Install axios npm install --save axios
+    16. Create axios instance axios-api.js
+    17. Configure Posts.vue - output data (remember to turn of authentication in Django view)
+    18. Test new configuration
