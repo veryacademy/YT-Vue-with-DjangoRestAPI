@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app',
+    'apiapp',
     'corsheaders',
 ]
 
@@ -45,7 +45,7 @@ CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8080',
 )
 
-ROOT_URLCONF = 'drestapi.urls'
+ROOT_URLCONF = 'main.urls'
 
 TEMPLATES = [
     {
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'drestapi.wsgi.application'
+WSGI_APPLICATION = 'main.wsgi.application'
 
 
 # Database
