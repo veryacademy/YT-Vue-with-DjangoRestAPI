@@ -45,7 +45,7 @@ CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8080',
 )
 
-ROOT_URLCONF = 'main.urls'
+ROOT_URLCONF = 'mainapp.urls'
 
 TEMPLATES = [
     {
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'main.wsgi.application'
+WSGI_APPLICATION = 'mainapp.wsgi.application'
 
 
 # Database
